@@ -1,0 +1,3 @@
+The MarsTime library is a TypeScript port of the pyMarsTime library by Christopher Lee (Ashima Research), which provides conversions between Earth time (UTC, Julian Date) and Mars time (e.g., Mars Sol Date, Darian calendar), which implements the Mars24 algorithm in javascript based on the [Allison and McEwen (2000)] paper. Details can be found at http://www.giss.nasa.gov/tools/mars24/ . Some Documentation for this package can be found at Read the Docs
+
+The library is available under the Modified BSD license. Please retain the references to the algorithm papers by [Allison and McEwen (2000)] and [Allison (1997)]. Publications using the algorithm should reference those papers where appropriate.
