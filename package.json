@@ -1,0 +1,21 @@
+{
+    "name": "mars-time",
+    "version": "1.0.0",
+    "description": "Mars time conversion library (MSD, MTC, Darian Calendar)",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+      "build": "tsc",
+      "prepare": "npm run build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xfanta/mars-time.git"
+    },
+    "author": "Michal Fanta",
+    "license": "BSD-3-Clause",
+    "keywords": ["mars", "time", "darian", "calendar"],
+    "devDependencies": {
+      "typescript": "^5.0.0"
+    }
+  }
