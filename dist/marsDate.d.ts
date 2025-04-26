@@ -6,4 +6,8 @@ export declare class MarsDate {
      * Returns a MarsDate instance with current Earth time.
      */
     static now(): MarsDate;
+    /**
+     * Returns the sol (Mars Sol Date) as an integer (without decimals).
+     */
+    get sol(): number;
 }
