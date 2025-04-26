@@ -1,5 +1,5 @@
 {
-    "name": "mars-time",
+    "name": "@xfanta/mars-time",
     "version": "1.0.0",
     "description": "Mars time conversion library (MSD, MTC, Darian Calendar)",
     "main": "./dist/index.js",
