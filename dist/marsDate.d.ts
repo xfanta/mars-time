@@ -11,3 +11,14 @@ export declare class MarsDate {
      */
     get sol(): number;
 }
+export declare class FutureMarsDate extends MarsDate {
+    constructor(date?: Date);
+    /**
+     * Returns a FutureMarsDate instance with current Earth time shifted 100 years into the future.
+     */
+    static now(): FutureMarsDate;
+    /**
+     * Returns the sol (Mars Sol Date) as an integer (without decimals).
+     */
+    get sol(): number;
+}
