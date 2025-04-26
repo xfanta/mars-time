@@ -350,6 +350,26 @@ const currentMarsDate = MarsDate.now();
 console.log(`Current MSD: ${currentMarsDate.msd}`);
 ```
 
+## `sol` (Getter)
+
+**Description:**  
+Returns the sol (Mars Sol Date) as an integer, truncating any decimal places.
+
+**Usage:**  
+This getter provides a simplified way to retrieve the current sol without fractional values.
+
+**Returns:**  
+- `number` – The sol (Mars Sol Date) as an integer.
+
+**Example:**
+```typescript
+import { MarsDate } from './marsDate';
+
+const marsDate = MarsDate.now();
+console.log(`Current MSD: ${marsDate.msd}`); // Full Mars Sol Date with decimals
+console.log(`Current Sol: ${marsDate.sol}`); // Truncated sol as an integer
+```
+
 ---
 
 ### Properties

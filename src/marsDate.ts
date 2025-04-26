@@ -17,4 +17,11 @@ export class MarsDate {
   static now(): MarsDate {
     return new MarsDate(new Date());
   }
+
+  /**
+   * Returns the sol (Mars Sol Date) as an integer (without decimals).
+   */
+  get sol(): number {
+    return Math.trunc(this.msd);
+  }
 }
