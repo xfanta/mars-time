@@ -384,6 +384,78 @@ console.log(`Current Sol: ${marsDate.sol}`); // Truncated sol as an integer
 
 ---
 
+## `FutureMarsDate` Class
+
+**Description:**  
+Represents a Mars date that is shifted 100 Earth years into the future compared to the current Earth date. This class extends the `MarsDate` class and provides the same methods and properties.
+
+---
+
+### Constructor
+
+**Signature:**  
+`constructor(date: Date = new Date())`
+
+**Parameters:**  
+- `date: Date` – Earth date (default is the current date).
+
+**Description:**  
+Initializes a `FutureMarsDate` instance by adding 100 Earth years to the provided date and calculating the corresponding Mars Sol Date (MSD).
+
+**Example:**
+```typescript
+import { FutureMarsDate } from './marsDate';
+
+const futureMarsDate = new FutureMarsDate(new Date("2025-04-22T00:00:00Z"));
+console.log(`Future MSD: ${futureMarsDate.msd}`);
+console.log(`Future Sol: ${futureMarsDate.sol}`);
+```
+
+---
+
+### Static Method: `now`
+
+**Description:**  
+Returns a `FutureMarsDate` instance representing the current Earth time shifted 100 years into the future.
+
+**Signature:**  
+`static now(): FutureMarsDate`
+
+**Returns:**  
+- `FutureMarsDate` – A `FutureMarsDate` instance with the current Earth date shifted 100 years into the future.
+
+**Example:**
+```typescript
+import { FutureMarsDate } from './marsDate';
+
+const futureMarsDate = FutureMarsDate.now();
+console.log(`Future MSD: ${futureMarsDate.msd}`);
+console.log(`Future Sol: ${futureMarsDate.sol}`);
+```
+
+---
+
+### Getter: `sol`
+
+**Description:**  
+Returns the sol (Mars Sol Date) as an integer, truncating any decimal places.
+
+**Signature:**  
+`get sol(): number`
+
+**Returns:**  
+- `number` – The sol (Mars Sol Date) as an integer.
+
+**Example:**
+```typescript
+import { FutureMarsDate } from './marsDate';
+
+const futureMarsDate = FutureMarsDate.now();
+console.log(`Future Sol: ${futureMarsDate.sol}`);
+```
+
+---
+
 # Mars Local Time Functions Documentation
 
 This document provides an overview of the functions available in the `marsLocalTime.ts` file, along with examples of their usage.
