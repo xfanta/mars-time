@@ -1,4 +1,5 @@
-// src/MarsDate.ts
+// src/marsDate.ts
+
 import { utcToMarsSolDate } from './marsSolDate';
 
 

@@ -1,3 +1,5 @@
+// src/marsLocalTime.ts
+
 /**
  * Converts Mars Sol Date (MSD) and longitude to Local Mean Solar Time (LMST).
  * @param msd Mars Sol Date

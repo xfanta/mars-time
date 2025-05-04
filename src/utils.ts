@@ -1,3 +1,5 @@
+// src/utils.ts
+
 /**
  * Converts degrees to radians.
  * Commonly used in trigonometric calculations involving angles.

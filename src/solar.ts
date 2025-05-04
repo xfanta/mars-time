@@ -1,3 +1,5 @@
+// src/solar.ts
+
 import { utcToMarsSolDate } from './marsSolDate';
 import { deg2rad } from './utils';
 

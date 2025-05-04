@@ -1,3 +1,5 @@
+// src/types.ts
+
 /**
  * Represents Mars time values: MSD and MTC.
  */
